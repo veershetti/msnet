@@ -8,9 +8,10 @@ namespace MsbuildLibrary
 {
     public class LibraryExample
     {
-        public static string HelloWorld()
-        {
-            return "Hello world";
-        }
+        static void Main(string[] args) {
+         /* my first program in C# */
+         Console.WriteLine("Hello World");
+         Console.ReadKey();
+      }
     }
 }
